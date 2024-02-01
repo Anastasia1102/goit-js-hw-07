@@ -9,7 +9,8 @@ function getRandomHexColor() {
     const destroyButton = document.querySelector('[data-destroy]');
     const boxesContainer = document.querySelector('#boxes');
 
-    function createBoxes(amount) {
+function createBoxes(amount) {
+      destroyBoxes();
       const boxes = [];
       let size = 30;
 
