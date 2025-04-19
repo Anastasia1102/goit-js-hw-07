@@ -17,3 +17,14 @@ Password: ${password}`);
 
   form.reset();
 }
+
+// for CSS
+
+const inputName = document.querySelectorAll("label");
+inputName.forEach((inputName) => inputName.classList.add("input-name"));
+
+const button = document.querySelector("button");
+button.classList.add("login-button");
+
+const input = document.querySelectorAll("input");
+input.forEach((input) => input.classList.add("form-input"));

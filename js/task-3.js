@@ -6,3 +6,6 @@ const handleInput = (event) => {
 };
 
 input.addEventListener("input", handleInput);
+
+const header = document.querySelector("h1");
+header.classList.add("header");
